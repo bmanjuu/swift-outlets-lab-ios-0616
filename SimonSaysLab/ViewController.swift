@@ -55,11 +55,15 @@ class ViewController: UIViewController {
             else {
                 winLabel.text = "Nope, try again."
             }
+           // resetGame()
         }
-
     }
     
-    func re
+//    func resetGame(){
+//        winLabel.hidden = true
+//        startGameButton.hidden = false
+//    }
+    //when trying to implement resetGame, the winLabel dissapears before it displays the text (or does it immediately after and its so fast we can't see it) so will work on fixing that later 
     
     override func viewDidLoad() {
         super.viewDidLoad()
